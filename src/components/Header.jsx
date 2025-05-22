@@ -45,8 +45,8 @@ export default function Header(){
                 </ul>
             </nav>
             <nav className={`mobile-nav-bar ${isOpen ? 'open' : ''}`} ref={navRef}>
+                <span onClick={() => setIsOpen(!isOpen)} className="close-nav-bar-button">x</span>
                 <ul>
-                    <li onClick={() => setIsOpen(!isOpen)}><span className="close-nav-bar-button">x</span></li>
                     <li onClick={() => setIsOpen(false)}><a href="#hero-section">Home</a></li>
                     <li onClick={() => setIsOpen(false)}><a href="#about-section" >About</a></li>
                     <li onClick={() => setIsOpen(false)}><a href="#projects-section" >Projects</a></li>
