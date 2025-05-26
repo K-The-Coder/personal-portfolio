@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <>
             <p>Hi, my name is</p>
-            <h1>Keketso</h1>
+            <h1 className="first-name">Keketso</h1>
             <h3>Web and Mobile app Developer</h3>
             <p>I create beautiful, functional, and responsive web applications and other digital products.</p>
             <p>Reach out to me via my socials</p>
