@@ -1,11 +1,11 @@
-import React from "react"
 
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import About from "./components/About"
-import Projects from "./components/Projects"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+
+import Header from "./page_sections/Header";
+import Hero from "./page_sections/Hero";
+import About from "./page_sections/About";
+import Projects from "./page_sections/Projects";
+import Contact from "./page_sections/Contact";
+import Footer from "./page_sections/Footer";
 
 export default function App() {
   return (
@@ -32,5 +32,5 @@ export default function App() {
 
       <Footer />
     </>
-  )
+  );
 }
