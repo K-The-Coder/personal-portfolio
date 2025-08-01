@@ -1,5 +1,5 @@
 export default function Input({
-  type = "",
+  type = "text",
   name = "",
   id = "",
   placeholder = "",
